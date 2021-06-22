@@ -90,7 +90,10 @@ public class LocalDataProvider : IDataProvider
         </DataGrid>
         если светиться ошибка НЕСОГЛАСОВАНОСТЬ .то добавить в классе public
 1ГОТОВО
-11.Создаем фильтрацию по словарю 1 создаем класс PlaneName.cs(нужно написать свой) и если нет добавить  public
+11.Создаем фильтрацию по словарю 1 создаем класс PlaneName.cs(нужно написать свой) и если нет добавить    public class MedDiagnoz
+    {
+        public string Title { get; set; }
+    }
 12.Создаем в классе главного окна свойство для хранения справочника 
    public List<PlaneName> PlaneNameList { get; set; }
 13.В интерфейс поставщика данных (IDataProvider) добавляем метод для получения списка
